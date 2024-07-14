@@ -1,0 +1,98 @@
+body{
+ margin: 0;
+ padding: 0;
+}
+#profile_image{
+ width: 100%;
+ margin: auto;
+ text-align: center;
+ margin-top: 10px;
+ border-radius: 10px;
+
+}
+#expect{
+    color: beige;
+}
+#profile_imag{
+    background-image: linear-gradient(blue, gold);
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 20px; 
+    color: gold; 
+}
+#my_address{
+    font-style: italic;
+}
+
+#heading{
+    line-height: 10px;
+    margin-bottom: 30px;
+}
+a{
+    margin: auto;
+}
+#prifile_image{
+ width: 30%;
+ margin: auto;
+ margin-top: 5px;
+ border-radius: 60px;
+}
+h2{
+    background-color: aqua;
+    width: 50%;
+    margin: auto;
+    cursor: pointer;
+    transition: width 1s, height 2s;
+}
+ 
+h2:hover{
+    background-color: forestgreen;
+    box-shadow: 1px 2px forestgreen;
+    width: 55%;
+    height: 55%;
+    
+    
+}  
+
+.my_links{
+    padding: 5px;
+    margin-top: -5px;
+    background-image: linear-gradient(gold, blue);
+    
+    
+}
+a:hover{
+    color: white;
+}
+#face_book, #what_sapp, #instagram, #linkedin,
+ #github, #ayoba, #discord{
+    margin-bottom: 20px;
+    padding: 3px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    
+}  
+ #github_image, #whatsapp_image, 
+#instagram_image,#linked_image, #discord_image{
+    width: 10%;
+    border-radius: 80px;
+   
+    
+}
+#face_bookimage{
+    width: 8%;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+/*media*/
+@media only screen and (min-width: 600px){
+    
+}
